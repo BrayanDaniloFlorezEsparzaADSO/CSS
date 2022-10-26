@@ -1,6 +1,3 @@
-#id-hola{
-    color: aquamarine;
-    border: solid 1px red;
-    padding: 0px 10px;
-    width: 28%;
+[color="red"]{
+    color: red;
 }
