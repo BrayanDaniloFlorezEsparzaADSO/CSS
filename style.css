@@ -1,3 +1,12 @@
-[color="red"]{
-    color: red;
+h2 p{
+    color: blue;
+}
+.h2-class a{
+    color: goldenrod;
+}
+.h2-class b span{
+    color: goldenrod;
+}
+.h2-class b {
+    color: rgb(218, 32, 60);
 }
