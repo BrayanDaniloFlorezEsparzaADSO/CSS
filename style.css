@@ -1,11 +1,13 @@
 *{
     font-family: 'Courier New', Courier, monospace;
     font-weight: 100;
+    font-size: 30px;
 }
-.contac-form{
-    font-size: 25px;
+h2{
+    display: inline;
 }
-.contac-form__h2{
-    font-size: 2em;
-    color:red;
+p{
+    height: 100px;
+    width: 100px;
 }
+/* propiedades de caja */
