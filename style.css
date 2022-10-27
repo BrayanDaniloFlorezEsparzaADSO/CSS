@@ -1,15 +1,11 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
 .contac-form{
-   font-size: 3px; 
+   font-size: 25px; 
 }
 .contac-form__h2{
-    font-size: 8em; 
-    background-color: #000;
-    width: 50vw;
-    height: 50vw;
-    /*1em es 16px predeterminado del navegador si esta en la parte de arriba el valor ya no es de 16px sino el que uno le asigna*/
+    font-size: 2em; 
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2;
+    font-weight: 799;
+    color: yellowgreen;
 }
-/* medidas relativas */
+/* propiedades de texto */
