@@ -1,16 +1,6 @@
-
-h1{
+.from__input:first-child{
+    color: blue;
+}
+.from__input--active{
     color: red;
-}
-.color{
-    color: blueviolet;
-}
-[otrocolor="red"]{
-    color: green;
-}
-#color2{
-    color: grey;
-}
-h1{
-    color: aqua; in !important
 }
