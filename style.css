@@ -1,9 +1,16 @@
-a:hover{
+
+h1{
     color: red;
 }
-b span:hover{
-    color: red;
+.color{
+    color: blueviolet;
 }
-.h2-class p:hover{
-    color: burlywood;
+[otrocolor="red"]{
+    color: green;
+}
+#color2{
+    color: grey;
+}
+h1{
+    color: aqua; in !important
 }
