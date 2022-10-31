@@ -1,56 +1,88 @@
 *{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 100;
     font-size: 20px;
 }
-.texto{
-    padding: 20px;
-    display: block;
+.caja1{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    transition:all 1s;
+    border: 3px solid rgb(0, 0, 0);
 }
-.texto::first-letter{
-    color: green;
-    font-size: 1.3em;
-}
-form{
-    margin: 100px auto;
-    display: block;
-    background-color: #555;
-    padding: 100px;
-    width: 50%;
-
-}
-input{
-    padding: 6px;
-    width: 100%;
-
-}
-input::selection{
-    color: red;
-    background-color: rgb(165, 182, 36);
-}
-p{
-    padding: 6px;
-    width: 100%;
-
-}
-p::selection{
-    color: rgb(6, 55, 252);
-    background-color: rgb(165, 182, 36);
-}
-b{
-    padding: 6px;
-    width: 100%;
-
-}
-b::before{
-    content: "wuenas";
-    color: aquamarine;
-}
-b::after{
-    content: " mi";
-    color: green;
+.caja1:hover{
     background: red;
+    border: 3px dashed rgb(13, 188, 48);
+    height: 300px;
+    width: 300px;
+}
+.butom1{
+    padding: 20px;
+    background: rgb(126, 62, 165);
+    color: #fff;
+}
+.butom1:hover{
+    padding: 20px;
+    background: slateblue;
+    color: #000;
 }
 
- 
-    /* pseudo elementos*/
+a:link{
+    color: red;
+    background: greenyellow;
+    display: block;
+}
+a:visited{
+    color: aqua;
+    background-color: black;
+    display: block;
+    padding: 10px;
+}
+
+
+.eldiv{
+    width: 300px;
+    height: 250px;
+    background: red;
+    margin: 25px;
+    transition:  all 1s;
+}
+.eldiv:active{
+    background: blue;
+    width: 600px;
+}
+.elinput{
+    background: red;
+    margin: 25px;
+    transition:  all 1s, padding 1s; 
+}
+.elinput:focus{
+    background: blue;
+    padding: 12px;
+}   
+.lacaja{
+    margin: 25px;
+} 
+.lacaja b:lang(en){
+    background: aqua;
+    padding: 20px;
+   
+}
+
+/* pseudo clases */
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: rgb(106, 100, 100);
+}
