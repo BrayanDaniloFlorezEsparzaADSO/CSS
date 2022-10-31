@@ -3,31 +3,18 @@
     font-weight: 100;
     font-size: 20px;
 }
-.eldiv{
-    margin: 55px;
-    width: 300px;
-    height: 500px;
-    border: red solid;
-    background: #f00;
+div{
+    width: 45%;
+    display: inline-block;
+    padding: 20px;
+    background: #ddd;
 }
-.eldiv2{
-    margin: 55px;
-    width: 300px;
-    height: 500px;
-    border: red solid;
-    background: rgb(0, 126, 0);
+h1{
+    font-size: 24px;
 }
-.eldiv3{
-    margin: 55px;
-    width: 300px;
-    height: 500px;
-    border: red solid;
-    background:  rgba(12, 12, 237, 0.3);
-}
-body{
-    background-color: rgb(56, 2, 2);
+.caja2{
+    background: #bbb;
 }
 
-
-/* cursor */
+/* Conceptos Básicos de Responsive */
  
