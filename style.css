@@ -8,12 +8,26 @@
     width: 300px;
     height: 500px;
     border: red solid;
-    background: gray;
+    background: #f00;
+}
+.eldiv2{
+    margin: 55px;
+    width: 300px;
+    height: 500px;
+    border: red solid;
+    background: rgb(0, 126, 0);
+}
+.eldiv3{
+    margin: 55px;
+    width: 300px;
+    height: 500px;
+    border: red solid;
+    background:  rgba(12, 12, 237, 0.3);
+}
+body{
+    background-color: rgb(56, 2, 2);
+}
 
 
-}
-.eldiv:active{
-    cursor:cell ;
-}
 /* cursor */
  
