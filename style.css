@@ -3,86 +3,20 @@
     font-weight: 100;
     font-size: 20px;
 }
-.caja1{
-    height: 200px;
-    width: 200px;
-    background-color: blueviolet;
-    transition:all 1s;
-    border: 3px solid rgb(0, 0, 0);
-}
-.caja1:hover{
-    background: red;
-    border: 3px dashed rgb(13, 188, 48);
-    height: 300px;
-    width: 300px;
-}
-.butom1{
-    padding: 20px;
-    background: rgb(126, 62, 165);
-    color: #fff;
-}
-.butom1:hover{
-    padding: 20px;
-    background: slateblue;
-    color: #000;
-}
-
-a:link{
-    color: red;
-    background: greenyellow;
-    display: block;
-}
-a:visited{
-    color: aqua;
-    background-color: black;
-    display: block;
-    padding: 10px;
-}
-
-
 .eldiv{
+    margin: 25px;
     width: 300px;
-    height: 250px;
-    background: red;
-    margin: 25px;
-    transition:  all 1s;
+    height: 500px;
+    
+
+
 }
-.eldiv:active{
-    background: blue;
-    width: 600px;
+.eldiv img{
+   height: 100%; 
+   width: 100%;
+   border: 2px red solid;
+   object-fit: cover ;
+   object-position: left;
+   /* contain, cover,none ,scale-down */
 }
-.elinput{
-    background: red;
-    margin: 25px;
-    transition:  all 1s, padding 1s; 
-}
-.elinput:focus{
-    background: blue;
-    padding: 12px;
-}   
-.lacaja{
-    margin: 25px;
-} 
-.lacaja b:lang(en){
-    background: aqua;
-    padding: 20px;
-   
-}
-
-/* pseudo clases */
-
-
-
-
-
-
-
-
-
-
-
-
-
-body{
-    background-color: rgb(106, 100, 100);
-}
+/* object-fit */
